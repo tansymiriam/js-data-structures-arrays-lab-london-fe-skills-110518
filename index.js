@@ -23,6 +23,7 @@ const prependDriver = ["Arnold",...drivers];
 return prependDriver
 }
 function removeLastDriver(name) {
+
   const lastDriver = drivers.slice(0, drivers.length - 1)
   return lastDriver
 }
@@ -30,3 +31,8 @@ function removeFirstDriver(name) {
   const firstDriver = drivers.slice(1)
   return firstDriver
 }
+function removeLasttDriver(name) {
+  const lastDriver = drivers.slice()
+  return lastDriver;
+}
+
